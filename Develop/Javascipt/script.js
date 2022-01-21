@@ -6,22 +6,26 @@ $(document).ready(function() {
     $('#currentDay').text(date);
 
     // color coding each time block
-    function changeColor() {
-        const d = new Date();
-        let hour = d.getHours();
-        for (let i = 0; i <= 9; i++) {
-            console.log(hour, i)
-            if (hour === i) {
-                $('.description').css("background", "red")
-            } else if (hour < i) {
-                $('.description').css("background", "lightblue")
-            } else {
-                $('.description').css("background", "#eee")
-            }
-        }
-    }
+    function timeTracker() {
+        var timeAtm = moment().hours();
+        let time = $('.time-block');
+        // console.log(timeAtm);
 
-    setInterval(function(){
-        changeColor();
-    },1000)
+        time.each(function () {
+            let hour = parseInt($(this).attr('id'));
+            //console.log(hour);
+
+            if (hour === timeAtm) {
+                $(this).children('.col-sm-10').attr('class', 'present col-sm-10 description');
+            } else if (timeAtm > hour) {
+                $(this).children('.col-sm-10').attr('class', 'past col-sm-10 description');
+            } else {
+                $(this).children('.col-sm-10').attr('class', 'future col-sm-10 description');
+            }
+        })
+    };
+    
+    timeTracker();
+
+
 });
