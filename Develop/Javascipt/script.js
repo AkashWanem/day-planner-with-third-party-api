@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     // color coding each time block
     function timeTracker() {
-        var timeAtm = moment().hours();
+        let timeAtm = moment().hours();
         let time = $('.time-block');
         // console.log(timeAtm);
 
@@ -27,5 +27,13 @@ $(document).ready(function() {
     
     timeTracker();
 
+    // SaveButton event listener
+    $('.saveBtn').on('click', function () {
+        let text = $(this).siblings('.description').val();
+        let time = $(this).parent().attr('id');
+
+        // save text input in the local storage
+        localStorage.setItem(time, text);
+    })
 
 });
