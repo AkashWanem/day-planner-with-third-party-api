@@ -1,5 +1,5 @@
 # day-planner-with-third-party-api
-Description: On this task i had to create a day planner where you can save your notes to remind you your daily events on hourly basis using bootstrap & Jquery. User can save their notes for each hour, the planner will be show todays date and time. Past, present and future time will be colour coded, Past hours will be colored in one color, present hour will be colored red and future hours would be colored lightblue. User can write their notes according to their hours and save it using the save button. When user refreshes the page his notes will still be there because all the input text will be saved in local storage. 
+Description: On this task i had to create a day planner where you can save your notes to remind you your daily events on hourly basis using bootstrap & Jquery. User can save their notes for each hour, the planner will be show todays date and time. Past, present and future time will be colour coded, Past hours will be colored in one color, present hour will be colored red and future hours would be colored #77dd77. User can write their notes according to their hours and save it using the save button. When user refreshes the page his notes will still be there because all the input text will be saved in local storage. 
 
 Criteria: GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
