@@ -17,7 +17,8 @@ THEN the saved events persist
 
 
 Screenshots:
-<img width="632" alt="dayplanner" src="https://user-images.githubusercontent.com/88898180/150692561-ae8559d3-b159-4ebd-b860-b9d06232121c.png">
+
+<img width="632" alt="dayplanner" src="https://user-images.githubusercontent.com/88898180/151376837-6fcf975c-6f09-4c1b-ba51-f40e67a41e69.png">
 
 
 <img width="901" alt="local-storage" src="https://user-images.githubusercontent.com/88898180/150692564-ee926b79-7830-434f-8d1b-bc810a6186ab.png">
