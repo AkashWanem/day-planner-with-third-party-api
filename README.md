@@ -15,6 +15,12 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+Technologies used:
+. HTML
+. Css
+. Bootstrap
+. Javascript
+. Jquery
 
 Screenshots:
 
