@@ -26,3 +26,5 @@ Screenshots:
 
 
 Link to deployed Application: https://akashwanem.github.io/day-planner-with-third-party-api/
+
+Contact me: akashwanem@hotmail.com
